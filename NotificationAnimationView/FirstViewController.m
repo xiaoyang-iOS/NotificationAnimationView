@@ -66,5 +66,8 @@
 {
     NSLog(@"-----------------------");
 }
-
+-(void)dealloc
+{
+    [CoreStatus endNotiNetwork:self];
+}
 @end
