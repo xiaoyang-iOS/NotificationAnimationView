@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		730DF73922FCFB3D00AA9704 /* NotificationAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 730DF73822FCFB3D00AA9704 /* NotificationAnimationView.m */; };
 		73D5C1AB22FC466C00894649 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D5C1AA22FC466C00894649 /* AppDelegate.m */; };
-		73D5C1AE22FC466C00894649 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D5C1AD22FC466C00894649 /* SceneDelegate.m */; };
 		73D5C1B122FC466C00894649 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D5C1B022FC466C00894649 /* FirstViewController.m */; };
 		73D5C1B422FC466C00894649 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D5C1B322FC466C00894649 /* SecondViewController.m */; };
 		73D5C1B722FC466C00894649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D5C1B522FC466C00894649 /* Main.storyboard */; };
@@ -26,8 +25,6 @@
 		73D5C1A622FC466C00894649 /* NotificationAnimationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationAnimationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D5C1A922FC466C00894649 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73D5C1AA22FC466C00894649 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		73D5C1AC22FC466C00894649 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		73D5C1AD22FC466C00894649 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		73D5C1AF22FC466C00894649 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		73D5C1B022FC466C00894649 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		73D5C1B222FC466C00894649 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -89,8 +86,6 @@
 				73D5C1C522FC46F400894649 /* CoreStatus */,
 				73D5C1A922FC466C00894649 /* AppDelegate.h */,
 				73D5C1AA22FC466C00894649 /* AppDelegate.m */,
-				73D5C1AC22FC466C00894649 /* SceneDelegate.h */,
-				73D5C1AD22FC466C00894649 /* SceneDelegate.m */,
 				73D5C1AF22FC466C00894649 /* FirstViewController.h */,
 				73D5C1B022FC466C00894649 /* FirstViewController.m */,
 				73D5C1B222FC466C00894649 /* SecondViewController.h */,
@@ -219,7 +214,6 @@
 				73D5C1D122FC46F500894649 /* Reachability.m in Sources */,
 				73D5C1AB22FC466C00894649 /* AppDelegate.m in Sources */,
 				73D5C1B122FC466C00894649 /* FirstViewController.m in Sources */,
-				73D5C1AE22FC466C00894649 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

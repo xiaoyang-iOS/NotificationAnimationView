@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor systemGreenColor];
+    self.view.backgroundColor=[UIColor greenColor];
     UIBlurEffect *effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
     if (!_notificationAnimationView) {
         _notificationAnimationView = [[NotificationAnimationView alloc]initWithEffect:effect];
