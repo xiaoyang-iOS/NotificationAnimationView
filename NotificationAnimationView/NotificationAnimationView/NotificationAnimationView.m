@@ -100,7 +100,7 @@
         tempParagraph.firstLineHeadIndent = 0.f;
         NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:_ContentLabel.text];
         [attrStr addAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14],NSForegroundColorAttributeName:[UIColor blackColor],NSParagraphStyleAttributeName:tempParagraph} range:allRange];
-        _ContentRect = [attrStr boundingRectWithSize:CGSizeMake(200, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading context:nil];
+        _ContentRect = [attrStr boundingRectWithSize:CGSizeMake(SCREEN_WIDTH-35, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading context:nil];
         _ContentLabel.frame = CGRectMake(10, 50, SCREEN_WIDTH-35, _ContentRect.size.height);
         _ContentLabel.attributedText = attrStr;
         self.frame=CGRectMake(7.5, -(60+_ContentRect.size.height), SCREEN_WIDTH-15, 60+_ContentRect.size.height);

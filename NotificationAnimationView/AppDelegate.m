@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window.rootViewController=[[FirstViewController alloc]init];
+    self.window.rootViewController=[[SecondViewController alloc]init];
     return YES;
 }
 
