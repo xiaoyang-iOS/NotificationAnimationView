@@ -67,7 +67,7 @@
         _TitleLabel=[[UILabel alloc]initWithFrame:CGRectMake(10, 30, 200, 20)];
     }
     _TitleLabel.font=[UIFont boldSystemFontOfSize:14];
-    
+    _TitleLabel.textColor=[UIColor blackColor];
     return _TitleLabel;
     
 }
@@ -78,11 +78,15 @@
      {
          _ContentLabel=[[UILabel alloc]initWithFrame:CGRectMake(10, 50, SCREEN_WIDTH-35, 20)];
      }
+    _ContentLabel.textColor=[UIColor blackColor];
     _ContentLabel.font=[UIFont systemFontOfSize:14];
     return _ContentLabel;
 }
 -(void)ShowNoticeAnimationView:(NSString *)noticeTitle NoticeContent:(NSString *)content AnimationTime:(CGFloat)animationTime FixedHeight:(BOOL)fixHeight{
     self.TitleLabel.text=noticeTitle;
+    self.frame=CGRectMake(7.5, -80, SCREEN_WIDTH-15, 80);
+    _NotificationView.frame=CGRectMake(0, 0, SCREEN_WIDTH-15, 80);
+    _ContentLabel.frame=CGRectMake(10, 50, SCREEN_WIDTH-35, 20);
     [self ReSetAllFramesWith:content FixedHeight:fixHeight];
     [self NoticeViewAnimation:animationTime];
     
